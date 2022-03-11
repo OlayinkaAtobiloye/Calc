@@ -1,0 +1,31 @@
+:root {
+  --toggle-background: hsl(223, 31%, 20%);
+  --toggle-button: hsl(6, 63%, 50%);
+  --toggle-button-shadow: hsl(6, 70%, 34%);
+  --textcol1: white;
+  --main1: hsl(222, 26%, 31%);
+  --keypad1: hsl(30, 25%, 89%);
+  --shadow1: hsl(28, 16%, 65%);
+  --text-color: hsl(60, 10%, 19%);
+  --button-dark-blue: hsl(225, 21%, 49%);
+  --button-dark-blue-shadow: hsl(224, 28%, 35%);
+  --result-background: hsl(223, 31%, 20%);
+}
+
+.card {
+  @apply grid grid-cols-4 gap-2 sm:gap-6 w-full rounded-xl p-4 lg:w-2/5;
+  height: 80%;
+  background-color: var(--toggle-background);
+}
+
+.darkbluebutton {
+  background-color: var(--button-dark-blue) !important;
+  color: #ffffff !important;
+  box-shadow: 0px 3px 0px var(--button-dark-blue-shadow) !important;
+}
+
+.redbutton {
+  background-color: var(--toggle-button) !important;
+  box-shadow: 0px 3px 0px var(--toggle-button-shadow) !important;
+  color: #ffffff !important;
+}

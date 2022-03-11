@@ -1,0 +1,6 @@
+.container {
+  @apply flex items-center justify-center flex-col p-6 h-screen;
+  background-color: var(--main1);
+  height: 100vh;
+  min-width: 100vw;
+}

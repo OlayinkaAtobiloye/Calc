@@ -1,0 +1,29 @@
+.header {
+  @apply flex justify-between w-full mb-9 items-end lg:w-2/5;
+  color: var(--textcol1);
+}
+
+.togglebackground {
+  @apply flex rounded-full mt-4 p-2 font-bold;
+  background-color: var(--toggle-background);
+}
+
+.togglespan {
+  @apply w-8 h-8;
+}
+
+.toggleID {
+  @apply ml-2 font-bold;
+}
+
+.toggleID > p {
+  @apply flex;
+}
+
+.toggleID > p > span {
+  @apply w-8 flex justify-end;
+}
+.togglebutton {
+  @apply rounded-full w-8 h-8;
+  background-color: var(--toggle-button);
+}
