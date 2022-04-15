@@ -1,5 +1,5 @@
 .result {
-  @apply w-full h-24 rounded-lg mb-6 lg:w-2/5 text-5xl font-black text-right p-6;
+  @apply w-full h-24 rounded-lg mb-6 lg:w-2/5 text-sm font-black text-right p-6;
   background-color: var(--result-background);
   color: var(--textcol1);
   overflow: hidden;

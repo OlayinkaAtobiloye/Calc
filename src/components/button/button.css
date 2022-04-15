@@ -1,5 +1,5 @@
 .numButton {
-  @apply flex justify-center items-center rounded-lg h-12 text-4xl font-bold;
+  @apply flex justify-center items-center rounded-lg h-12 text-sm font-bold;
   height: calc((100vh - 50vh) / 6);
   background-color: var(--keypad1);
   box-shadow: var(--shadow1);
